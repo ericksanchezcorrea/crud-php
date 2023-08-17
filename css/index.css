@@ -1,0 +1,112 @@
+body{
+    margin: 30px;
+    background-color: rgb(195, 193, 193);
+}
+h1{
+    color: rgb(1, 1, 1);
+}   
+.input_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.input_container > label{
+    width: 80px;
+}
+.input_container > input[type='text'], input[type='password']{
+    outline: none;
+    height:30px;
+    width:200px;
+}
+
+.input_container > textarea{
+    min-width:200px;
+    max-width:200px;
+    min-height:30px;
+    max-height:30px;
+    outline: none;
+}
+
+input[type='submit']{
+    display: block;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+}
+.message{
+    padding: 10px;
+    width: max-content;
+}
+.success{
+    background-color: rgb(45, 150, 45);
+}
+.deleted{
+    background-color: crimson;
+}
+.update{
+    background-color: yellow;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.a_button{
+    background-color: rgb(80, 207, 116);
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: max-content;
+}
+
+.a_button_salir > button{
+    display: inline-block;
+    margin: 20px 0 20px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.a_button_salir > button:hover{
+    background-color: crimson;
+    color: white;
+}
+
+.enlace{
+    color: rgb(8, 8, 246);
+    text-decoration: underline;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+td > .delete{
+    background-color: crimson;
+}
+td > .edit{
+    background-color: yellowgreen
+}
+
+.error{
+    color:red;
+}
